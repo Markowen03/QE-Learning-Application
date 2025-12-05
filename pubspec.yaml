@@ -1,0 +1,55 @@
+name: final_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.18.1                      # date formatting
+  flutter_pdfview: ^1.3.1           # another PDF viewer
+  syncfusion_flutter_pdfviewer: ^29.2.7  # PDF viewer
+  shared_preferences: ^2.2.2        # local subject saving
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1   # added for custom app icon
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_final.png
+    - assets/images/teacher.png
+    - assets/images/courses.png
+    - assets/images/assignment.png
+    - assets/images/my_courses.png
+    - assets/images/live_sessions.png
+    - assets/images/english_book.png
+    - assets/images/filipino_book.png
+    - assets/images/science_book.png
+    - assets/images/math_book.png
+    - assets/images/lessons.png
+    - assets/images/download.png
+    - assets/images/user.png
+    - assets/images/onboarding1.png
+    - assets/images/onboarding2.png
+    - assets/images/onboarding3.png
+
+    - assets/pdf/science.pdf
+    - assets/pdf/english.pdf
+    - assets/pdf/filipino.pdf
+    - assets/pdf/math.pdf
